@@ -1,9 +1,56 @@
-#wrapper {
-
-width: 70%;
-margin:auto;
+body {
+background: url('../images/Bluebackground.png');
 
 }
+
+#wrapper {
+    width: 90%;
+    margin:auto;
+background: hsla(0,0%,100%,0.94);
+}
+
+wrapper {
+background: hsla(0,0%,100%,0.94);
+}
+
+h1{
+font-family: 'Antonio', sans-serif;
+}
+
+
+p {
+font-family: 'Open Sans', sans-serif;
+text-align: left;
+}
+
+p {
+  text-align: left;
+}
+
+
+
+footer {
+background: hsla(0,0%,80%,0.30);
+}
+
+
+ul#social { list-style-type: none;
+}
+
+ul#social li { float: left;
+ width: 100px;
+}
+
+ul#social { float: left;
+  max-width: 100%
+}
+
+ul#statement{
+  max-width: 100%
+}
+ul#statement { list-style-type: none;
+}
+
 
 
 nav ul {
@@ -46,19 +93,21 @@ footer ul li img {
 }
 
 .grid-container {
-  display: grid;
+  display: inline-grid;
+  grid-column-gap: 50px;
   grid-template-columns: auto auto auto;
-  background-color: black;
-  padding: 5px;
+  background-color: none;
+  padding: 0px;
 }
 
 .grid-item {
   background-color: rgba(255, 255, 255, 0.8);
   border: 1px solid rgba(0, 0, 0, 0.8);
-  padding: 20px;
+  padding: 50px;
   font-size: 30px;
   text-align: center;
 }
+
 
 footer ul li img {
         width:30%;
@@ -67,5 +116,34 @@ footer ul li img {
 #hero{
 
 background: url('../images/main image.jpg');
-        height: 300px;
+        height: 200px;
 }
+
+#wrapper{
+
+background: url('../images/city.jpg');
+        height: 110px;
+
+
+}
+
+
+.container {
+  display: flex;
+  align-items: center;
+  justify-content: center
+}
+
+img {
+  max-width: 100%
+}
+
+.imagesmile {
+  flex-basis: 100%
+}
+
+.smiletext {
+  font-size: 20px;
+  padding-left: 20px;
+}
+
